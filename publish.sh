@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if [[ -v INFO_JSON_FILE ]]; then
     export MOD_NAME="$(jq -r .name $INFO_JSON_FILE)"
